@@ -4,6 +4,7 @@
   "description": "A Node.js repository used to practice integration testing database operations",
   "main": "index.mjs",
   "scripts": {
+    "dev": "NODE_ENV=development && node index.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
